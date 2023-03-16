@@ -1,0 +1,799 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1146px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.show {
+    position: absolute;
+    background: linear-gradient(to top left, #FF9D5F, #FF8131);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    z-index: 6;
+}
+/* .footer_container{
+    width: 1260px;
+    margin: auto;
+} */
+.main_background{
+    background: url(../images/benefits/main_background.png);
+    background-size: cover;
+    /* height: 2000px; */
+    width: 100%;
+}
+
+  /* navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.header_nav_btns_cont {
+    display: flex;
+}
+.nav ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #3D474D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+.log_signup input {
+    color: white;
+    font-family: poppins;
+}
+.log_signup :nth-child(1) {
+    background: url(../images/Frame_33835.png);
+    background-size: cover;
+    padding: 11px 25px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+.log_signup :nth-child(2) {
+    background: url(../images/btn.png);
+    background-size: cover;
+    padding: 11px 50px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/* wonderlister_benefits */
+.wonderlister_benefits_doted_background{
+    background: url(../images/doted_lines.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.benefits_heading_container{
+    text-align: center;
+    padding-top: 123px;
+}
+.benefits_heading_container h1{
+    font-family: 'Exo 2';
+    color: #FA7420;
+    font-size: 48px;
+}
+.benefits_heading_container p{
+    font-family: 'Roboto';
+    color: rgba(0, 75, 129, 0.85);
+    font-size: 22.3667px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.wonderlister_discription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wonderlister_discription_text{
+    margin-left: 50px;
+}
+.wonderlister_discription_image img{
+    width: 593.88px;
+}
+.wonderlister_discription_text h1{
+    font-family: 'Exo 2';
+   font-size: 40px;
+   color: #FA7420;
+   font-weight: 700;
+   margin-top: 80px;
+}
+.wonderlister_discription_text p{
+    font-family: 'Rubik';
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(0, 75, 129, 0.85);
+}
+
+
+/* affordable_alternative */
+.affordable_alternative_background{
+    background: url(../images/benefits/blue_doted_line.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 800px; */
+}
+.affordable_alternative_text{
+    text-align: center;
+    font-family: 'Exo 2';
+    color: #FA7420;
+}
+
+.affordable_alternative_text h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.affordable_alternative_card_container{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    margin-top: 90px;
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 523.24px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    /* filter: drop-shadow(0px 23.409px 62.4239px rgba(0, 0, 0, 0.04)); */
+    box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.52);
+}
+.card_img{
+    height: 122px;
+}
+.card_text{
+    padding: 0px 25px 0px 25px;
+}
+.card_text p{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #081F32;
+}
+
+.feature_you_dont_get_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.feature_you_dont_get_text h2{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.feature_you_dont_get_button input{
+    background: url(../images/benefits/btn_background.png);
+    background-size: 100% 100%;
+    border: 0;
+    font-family: 'Poppins';
+    font-size: 14.4495px;
+    padding: 15px 35px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/* collab */
+section{
+    margin-top: 90px;
+}
+.set_position{
+    position: relative;
+}
+.sedule_demo_cont{
+    position: absolute;
+    bottom: -43px;
+    width: 100%;
+}
+.collabrate_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+.collabrate_text{
+    text-align: center;
+}
+.collabrate_text h1{
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 45px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.sedule_a_demo{
+    background: url(../images/apk\ download.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    width: 928px;
+    height: 83px;
+    margin-top: 30px;
+}
+.sedule_demo_text{
+    margin-left: 80px;
+    margin-right: 187px;
+}
+.sedule_demo_text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.sedule_btn{
+    background: url(../images/download.png);
+    background-size: cover;
+    margin-right: 40px;
+}
+.sedule_btn input{
+    background-color: transparent;
+    border: 0;
+    padding: 17px 20px;
+    font-family: 'Quicksand';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+.contact_and_useful_links{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.contact p{
+    font-family: 'Quicksand';
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.contact a{
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    color: #0E5486;
+}
+.list h2{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #0E5486;
+    letter-spacing: 1px;
+}
+.list ul{
+    margin-top: 15px;
+}
+.list ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.list ul li img{
+    margin-right: 10px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #8A9499;
+    font-family: 'Quicksand';
+    font-size: 15px;
+}
+
+
+.copyright{
+    background: url(../images/Group\ 33792.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 93px;
+}
+.copyright_text h1{
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+.copyright_text h1 span{
+    color: #FA7420;
+}
+.social_btn ul{
+    display: flex;
+}
+.social_btn ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.social_btn ul li:nth-child(3){
+    margin: 0;
+}
+.social_btn ul li i{
+    color: #0E5486;
+}
+
+.hamb_bar_cont{
+    display: none;
+}
+
+@media(max-width:1300px){
+    .nav ul li {
+        padding-right: 30px;
+    }
+.log_signup :nth-child(1) {
+    display: none;
+}
+.benefits_heading_container {
+    padding-top: 80px;
+}
+}
+@media(max-width:1200px){
+    .container {
+        width: 1060px;
+    }
+    .wonderlister_discription_text h1 {
+        font-size: 38px;
+    }
+    .wonderlister_discription_text p {
+        font-size: 15px;
+    }
+
+    .card {
+        width: 490.24px;
+    }
+    .card_text {
+        padding: 0px 20px 0px 20px;
+    }
+    .card_text p {
+        font-size: 15px;
+    }
+
+
+    .sedule_demo_cont {
+        bottom: -30px;
+    }
+    .sedule_a_demo {
+        width: 690px;
+        height: 70px;
+        margin-top: 20px;
+    }
+    .collabrate_text h1 {
+        font-size: 40px;
+    }
+   .sedule_demo_text {
+        margin-right: 0px;
+    }
+    .sedule_btn {
+        margin-right: 25px;
+    }
+    .sedule_btn input {
+        padding: 14px 14px;
+        font-size: 11px;
+    }
+}
+
+@media(max-width:1100px){
+    .container {
+        width: 918px;
+    }
+    .hamb_bar_cont{
+        display: block;
+        z-index: 6;
+    }
+    .hamb_bar_cont i {
+        margin-top: 22px;
+    }
+    .nav {
+        display: none;
+        padding-top: 90px;
+    }
+    .nav ul {
+        text-align: center;
+    }
+    .nav ul li {
+        display: block;
+    }
+    .nav ul li a {
+        color: white;
+        font-size: 20px;
+    }
+    .log_signup{
+        margin-right: 20px;
+    }
+    .log_signup :nth-child(1) {
+     display: inline-block;
+    }
+
+
+    .benefits_heading_container {
+        padding-top: 50px;
+    }
+    .benefits_heading_container p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .wonderlister_discription {
+        margin-top: 60px;
+    }
+
+    .wonderlister_discription_image img {
+        width: 450.88px;
+    }
+    .wonderlister_discription_text h1 {
+        font-size: 35px;
+    }
+    .wonderlister_discription_text p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .card {
+        width: 435.24px;
+    }
+}
+@media(max-width:1000px){
+    .container {
+        width: 830px;
+    }
+    header img{
+        width: 230px;
+    }
+    .log_signup :nth-child(1) {
+        padding: 10px 20px;
+    }
+    .log_signup :nth-child(2) {
+        padding: 10px 46px;
+    }
+    .benefits_heading_container p {
+        font-size: 18px;
+    }
+    .wonderlister_discription_image img {
+        width: 400px;
+    }
+    
+
+    .affordable_alternative_text h1 {
+        font-size: 35px;
+    }
+    .card {
+        width: 400.24px;
+    }
+    .card_text p {
+        font-size: 14px;
+    }
+
+    .collabrate_text h1 {
+        font-size: 30px;
+    }
+
+   .sedule_a_demo {
+        width: 580px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .sedule_demo_text {
+        margin-left: 45px;
+    }
+    .sedule_demo_text p {
+        font-size: 15px;
+    }
+    .sedule_btn input {
+        padding: 11px 9px;
+        font-size: 9px;
+    }
+}
+@media(max-width:900px){
+    .container {
+        width: 700px;
+    }
+    .benefits_heading_container h1 {
+        font-size: 40px;
+    }
+    .benefits_heading_container p {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .wonderlister_discription_image img {
+        width: 370px;
+    }
+    .wonderlister_discription_text h1 {
+        font-size: 27px;
+    }
+    .wonderlister_discription_text p {
+        line-height: 22px;
+    }
+
+    .affordable_alternative_card_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 600px;
+    }
+
+
+    .contact_and_useful_links {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .contact img{
+        width: 220px;
+    } 
+    .contact p {
+        font-size: 11px;
+        margin-top: 4px;
+    }
+
+
+
+    
+
+    /* .contact_and_useful_links {
+        padding-top: 70px;
+    } */
+    .contact{
+        margin-bottom: 40px;
+    }
+    .contact_and_useful_links {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .copyright {
+        padding: 35px 30px;
+    }
+}
+@media(max-width:800px){
+    .container {
+        width: 600px;
+    }
+    header {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    header img {
+        width: 200px;
+    }
+    .benefits_heading_container h1 {
+        font-size: 35px;
+    }
+    .benefits_heading_container p {
+        font-size: 15px;
+    }
+    .wonderlister_discription_image img {
+        width: 270px;
+    }
+    .wonderlister_discription_text p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .affordable_alternative_text h1 {
+        font-size: 33px;
+    }
+
+    .feature_you_dont_get_text h2 {
+        font-size: 20px;
+    }
+    .feature_you_dont_get_button input {
+        padding: 12px 30px;
+    }
+
+    .collabrate_text h1 {
+        font-size: 25px;
+    }
+    .sedule_a_demo {
+        width: 420px;
+        height: 55px;
+    }
+    .sedule_demo_text {
+        margin-left: 30px;
+    }
+    .sedule_demo_text p {
+        font-size: 14px;
+    }
+    .sedule_btn {
+        margin-right: 4px;
+    }
+
+}
+@media(max-width:700px){
+    .container {
+        width: 450px;
+    }
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 40px;
+    }
+    
+    .log_signup{
+        display: none;
+    }
+    .benefits_heading_container {
+        padding-top: 0;
+    }
+    .benefits_heading_container p {
+        font-size: 13px;
+    }
+    .wonderlister_benefits_doted_background{
+        margin-top: 70px;
+    }
+    .wonderlister_discription {
+        flex-direction: column-reverse;
+    }
+    .wonderlister_discription_text {
+        margin-left: 0px;
+    }
+    .wonderlister_discription_text h1 {
+        font-size: 33px;
+        margin-top: 60px;
+    }
+    .wonderlister_discription_text p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .wonderlister_discription_image{
+        margin-top: 30px;
+    }
+    .wonderlister_discription_image img {
+        width: 360px;
+    }
+
+    .affordable_alternative_card_container {
+        margin-top: 70px;
+    }
+
+    .affordable_alternative_text h1 {
+        font-size: 31px;
+    }
+    .card {
+        width: 430px;
+    }
+    .feature_you_dont_get_text h2 {
+        font-size: 19px;
+    }
+    .collabrate_text h1 {
+        font-size: 23px;
+    }
+
+    .sedule_a_demo {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:600px){
+    .collabrate_text h1 {
+        font-size: 19px;
+    }
+    .sedule_a_demo {
+        height: 45px;
+    }
+    .sedule_btn {
+        margin-right: 11px;
+    }
+    .sedule_btn input {
+        padding: 10px 10px;
+        font-size: 7px;
+    }
+
+    .copyright_text h1 {
+        font-size: 14px;
+    }
+    .social_btn ul li i {
+        font-size: 20px;
+    }
+}
+@media(max-width:500px){
+    .container {
+        width: 340px;
+    }
+    header img {
+        width: 170px;
+    }
+    .hamb_bar_cont i {
+        margin-top: 15px;
+    }
+    .wonderlister_benefits{
+        position: relative;
+        top: -38px;
+    }
+    .affordable_alternative_text h1 {
+        font-size: 29px;
+    }
+    .card {
+        width: 340px;
+    }
+    .card_text p {
+        font-size: 13px;
+    }
+    .feature_you_dont_get_text h2 {
+        font-size: 14px;
+    }
+    .feature_you_dont_get_button input {
+        font-size: 10.4495px;
+        padding: 8px 10px;
+    }
+
+    .sedule_a_demo {
+        height: 45px;
+        width: 336px;
+    }
+    .sedule_demo_text p {
+        font-size: 11px;
+    }
+    .sedule_btn {
+        margin-right: 6px;
+    }
+    .sedule_btn input {
+        padding: 8px 3px;
+    }
+
+    .contact img {
+        width: 170px;
+    }
+
+    .copyright_text h1 {
+        font-size: 11px;
+    }
+}
+@media(max-width:400px){
+    .container {
+        width: 320px;
+    }
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .wonderlister_discription_text h1 {
+        font-size: 25px;
+    }
+    .benefits_heading_container h1 {
+        font-size: 26px;
+    }
+    .wonderlister_discription_image img {
+        width: 300px;
+    }
+    .affordable_alternative_text h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .card_img {
+        height: 85px;
+    }
+    .card_img img{
+        height: 100%;
+    }
+    .card_text p {
+        font-size: 10px;        
+        line-height: 15px;
+
+    }
+    .sedule_a_demo {
+        margin-top: 5px;
+    }
+    .collabrate_text h1 {
+        font-size: 17px;
+    }
+}

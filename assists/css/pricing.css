@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1146px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.background{
+    background: url(../images/benefits/main_background.png);
+    background-size: cover;
+}
+
+  /* navbar */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.header_nav_btns_cont {
+    display: flex;
+}
+.nav ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #3D474D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+.log_signup input {
+    color: white;
+    font-family: poppins;
+}
+.log_signup :nth-child(1) {
+    background: url(../images/Frame_33835.png);
+    background-size: cover;
+    padding: 11px 25px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+.log_signup :nth-child(2) {
+    background: url(../images/btn.png);
+    background-size: cover;
+    padding: 11px 50px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+.hamb_bar_cont{
+    display: none;
+}
+
+
+.pricing_double_doted_background{
+    background: url(../images/doted_lines.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.pricing_heading{
+    padding-top: 100px;
+    text-align: center;
+}
+.pricing_heading h1{
+    font-family: 'Exo 2';
+    font-size: 48px;
+    color: #FA7420;
+}
+.pricing_heading p{
+    font-family: 'Roboto';
+    color: rgba(0, 75, 129, 0.85);
+    font-size: 22.3667px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.left_text_right_img_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.left_text{
+    margin-right: 40px;
+}
+.left_text h1{
+    font-family: 'Exo 2';
+    color: #FA7420;
+    /* line-height: 50px; */
+    font-size: 48px;
+}
+.left_text p{
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(0, 75, 129, 0.85);
+    margin-top: 15px;
+}
+
+
+.pricing_single_doted_line{
+    background: url(../images/pricing/doted_lin.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.pricing_section_main_btn{
+    display: flex;
+    justify-content: center;
+}
+.pricing_btn{
+    background: linear-gradient(180deg, #FF934D 0%, #FA7420 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 120px;
+    height: 45px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pricing_btn input{
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    cursor: pointer;
+}
+.pricing_section_main_btn img{
+    margin-right: 10px;
+}
+.enterprise_pricing_btn{
+    background: linear-gradient(180deg, #124162 0%, #49799A 100%);
+    border-radius: 50px;
+    width: 225px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.enterprise_pricing_btn input{
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.pricing_main_container{
+    margin-top: 50px;
+}
+.price_card_container{
+    display: flex;
+    justify-content: end;
+}
+.price_card{
+    background: #FFEDE1;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.price_card h1{
+    color: rgba(1, 62, 105, 1);
+    font-family: 'Open Sans';
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.price_card h1 span{
+    font-size: 15px;
+}
+.price_card h3{
+    font-family: 'Open Sans';
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #505050;
+    margin-bottom: 5px;
+    position: relative;
+    left: -14px;
+}
+.price_card input{
+    background: linear-gradient(180deg, #FF934D 0%, #FA7420 100%);
+    border: 0;
+    border-radius: 25px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 5px 20px;
+}
+.orange_line_container{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 10px;
+    /* background-color: #3D474D; */
+}
+.orangeline{
+    height: 3px;
+    width: 40%;
+    background-color: #FA7420;
+    border-radius: 10px;
+}
+
+.define_things_orange_row_container ul li:nth-child(1){
+    background: linear-gradient(180deg, #FF934D 0%, #FA7420 100%);
+}
+.define_things_blue_row_container ul li:nth-child(1){
+    background: linear-gradient(90deg, #124162 15.49%, #124162 15.5%, #49799A 100%);
+}
+
+.define_accessible_things_main_container ul li:nth-child(1){
+    font-family: 'Exo 2';
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 13px 8px;
+    border-radius: 10px;
+    height: 37px;
+}
+.define_accessible_things_main_container ul{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.define_accessible_things_main_container ul li{
+    list-style: none;
+    width: 149px;
+    height: 63px;
+    background: linear-gradient(180deg, rgba(255, 147, 77, 0.1) 0%, rgba(252, 131, 54, 0.1) 51.75%, rgba(250, 116, 32, 0.1) 100%);
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.define_things_blue_row_container ul li{
+    background: rgba(1, 62, 105, 0.1);
+}
+
+
+
+.sedule_a_demo {
+    background: url(../images/apk\ download.png);
+    position: relative;
+    background-size: 100% 100%;
+    top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 928px;
+    height: 83px;
+    margin-top: 30px;
+}
+.sedule_demo_text{
+    margin-left: 80px;
+    margin-right: 187px;
+}
+.sedule_demo_text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.sedule_btn{
+    background: url(../images/download.png);
+    background-size: cover;
+    margin-right: 40px;
+}
+.sedule_btn input{
+    background-color: transparent;
+    border: 0;
+    padding: 17px 20px;
+    font-family: 'Quicksand';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 150px;
+}
+.contact_and_useful_links{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.contact p{
+    font-family: 'Quicksand';
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.contact a{
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    color: #0E5486;
+}
+.footer_links h2{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #0E5486;
+    letter-spacing: 1px;
+}
+.footer_links ul{
+    margin-top: 15px;
+}
+.footer_links ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer_links ul li img{
+    margin-right: 10px;
+}
+.footer_links ul li a{
+    text-decoration: none;
+    color: #8A9499;
+    font-family: 'Quicksand';
+    font-size: 15px;
+}
+
+
+/* footer */
+.copyright{
+    background: url(../images/Group\ 33792.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 93px;
+}
+.copyright_text h1{
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+.copyright_text h1 span{
+    color: #FA7420;
+}
+.social_btn ul{
+    display: flex;
+}
+.social_btn ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.social_btn ul li:nth-child(3){
+    margin: 0;
+}
+.social_btn ul li i{
+    color: #0E5486;
+}
+

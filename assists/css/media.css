@@ -1,0 +1,733 @@
+@media(max-width:1400px) {
+    .right_half_circle_img{
+        display: none;
+    }
+    .support_right {
+        padding-right: 50px;
+    }
+}
+@media(max-width:1300px){
+    .about_text {
+        left: 290px;
+        padding-left: 265px;
+    }
+    .about_img img {
+        width: 450px;
+        height: 450px;
+    }
+    .ufo_img img {
+        height: 250px;
+    }
+    .premium_cards_container {
+        margin-top: 37px;
+    }
+    .premium_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    .card {
+        width: 287.63px;
+        margin-top: 30px;
+    }
+     .box-2{
+        display: none;
+     }
+     .support_right {
+         padding-right: 110px;
+     }
+     .support_left {
+        top: -124px;
+    }
+    .support_left img {
+        width: 420px;
+    }
+    .blue_doted_line {
+        top: -110px;
+    }
+    .sedule_btn {
+        margin-right: 14px;
+    }
+
+    .collab_text {
+        bottom: 60px;
+    }
+    .collab_text h1 {
+        font-size: 40px;
+    }
+    .sedule_demo_text {
+        margin-left: 41px;
+        margin-right: 129px;
+    }
+    .sedule_btn input {
+        padding: 14px 9px;
+    }
+    
+}
+
+
+
+@media(max-width:1350px) {
+    .log_signup :nth-child(1) {
+        display: none;
+    }
+    .ebay_text h1 {
+        font-size: 45px;
+    }
+    .ebay_text p {
+        font-size: 19.37px;
+    }
+    .main_img {
+        width: 500px;
+        height: 550px;
+    }
+
+
+    .about_img {
+        padding-left: 95px;
+    }
+    .about_text {
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    .premium_text h1 {
+        font-size: 40px;
+    }
+    .premium_text h2 {
+        font-size: 29px;
+    }
+    .premium_text p {
+        font-size: 19px;
+    }
+    .premium_btn :nth-child(1) input {
+        padding: 13px 79px;
+    }
+    .premium_btn :nth-child(2) input {
+        padding: 13px 21px;
+    }
+    
+}
+
+@media(max-width:1200px) {
+    .ebay_text {
+        margin-top: 160px;
+    }
+    .ebay_text_img {
+        margin-bottom: 0px;
+    }
+    .ebay_text h1 {
+        font-size: 40px;
+    }
+    .ebay_text p {
+        font-size: 18.37px;
+    }
+    .main_img {
+        width: 400px;
+        height: 450px;
+    }
+    .support_right {
+        padding-right: 50px;
+    }
+    /* .about_img {
+        padding-left: 80px;
+    } */
+}
+
+@media(max-width:1190px) {
+    .hamb_bar_cont {
+        display: block;
+        z-index: 6;
+    }
+    .nav {
+        display: none;
+        padding-top: 90px;
+    }
+    .nav ul {
+        text-align: center;
+    }
+    .nav ul li {
+        display: block;
+    }
+    .nav ul li a {
+        color: white;
+        font-size: 20px;
+    }
+    .log_signup :nth-child(1) {
+        display: inline-block;
+    }
+    .log_signup {
+        margin-right: 20px;
+    }
+    .hamb_bar_cont i {
+        margin-top: 22px;
+    }
+
+
+    .about_text {
+        left: 290px;
+        padding-left: 230px;
+    }
+
+}
+
+@media(max-width:1070px) {
+    .ebay_text h1 {
+        font-size: 35px;
+    }
+    .ebay_text p {
+        font-size: 15.37px;
+    }
+    .about_text {
+        padding-left: 174px;
+    }
+
+    .premium_text p {
+        font-size: 15px;
+    }
+    .support_left {
+        top: -132px;
+    }
+    .support_left img {
+        width: 447px;
+    }
+    .support_right {
+       width: 430px;
+    }
+    .box{
+        margin-top: 0;
+    }
+    .box p {
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width:1000px){
+    .main_img {
+        width: 350px;
+        height: 350px;
+    }
+    .main_img_cont img{
+        margin-right: 0px;
+        margin-top: 118px;
+    }
+    .apk_download {
+        height: 70px;
+        top: -35px;
+    }
+    .apk_download_text {
+        font-size: 11.97px;
+    }
+    .download_btn input {
+        padding: 11px 18px;
+        font-size: 11px;
+    }
+
+    .some_words_cont h1 {
+        font-size: 30px;
+    }
+    .some_words_cont p {
+        font-size: 17px;
+    }
+    .about_text {
+        line-height: 18px;
+        font-size: 11px;
+    }
+    .premium_text h1 {
+        font-size: 30px;
+    }
+    .premium_text h2 {
+        font-size: 20px;
+    }
+    .premium_text p {
+        font-size: 14px;
+    }
+    .premium_btn :nth-child(1) input {
+        padding: 17px 68px;
+        font-size: 17px;
+    }    
+    .premium_btn :nth-child(2) input {
+        padding: 17px 16px;
+        font-size: 17px;
+    }  
+    .support_right {
+        padding-right: 20px;
+    }  
+    .collab_text h1 {
+        font-size: 30px;
+    }
+    .sedule_a_demo {
+        top: -39px;
+        height: 70px;
+    }
+    .sedule_btn input {
+        padding: 13px 12px;
+        font-size: 10px;
+    }
+}
+@media(max-width:900px){
+    header {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+   .ebay_text {
+    margin-left: 40px;
+    }
+    .trial_btn{
+        z-index: 5;
+    }
+    .about_img img {
+        width: 314px;
+        height: 300px;
+    }
+    .about_text {
+        line-height: 13px;
+        font-size: 10px;
+        padding-left: 126px;
+        left: 232px;
+    }
+    .ufo_img img {
+        height: 180px;
+    }
+    .melody_img img{
+        width: 142px;
+        height: 68px;
+    }
+    .left_arrow img{
+        width: 45px;
+        height: 45px;
+    }
+    .right_arrow img{
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .premium_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 448.63px;
+        margin-top: 30px
+    }
+    .card_btn {
+        margin-top: 34px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card_dot_img {
+        margin-top: 9px;
+    }
+    .collab_text {
+        bottom: 47px;
+    }
+    .sedule_a_demo {
+        top: -33px;
+        height: 70px;
+    }
+
+    .box{
+        display: none;
+    }
+    .support_right {
+        width: 329px;
+    }
+    .support_left {
+        top: -104px;
+    }
+    .support_right_first_cont p {
+        line-height: 25px;
+    }
+    .support_right {
+        padding-right: 50px;
+    }
+    .support_left img {
+        width: 351px;
+    }
+    .set_position {
+        padding-bottom: 65px;
+        padding-top: 65px;
+    }
+
+    .contact_and_useful_links {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .contact img{
+        width: 220px;
+    } 
+    .contact p {
+        font-size: 11px;
+        margin-top: 4px;
+    }
+
+}
+@media(max-width:800px){
+    .ebay_main {
+        padding-bottom: 112px;
+    }
+    .main_img_cont{
+        display: none;
+    }
+    .apk_download {
+        height: 62px;
+        top: -28px;
+    }
+    .apk_download_text {
+        font-size: 10px;
+    }
+    .download_btn input {
+        font-size: 10px;
+    }
+    .some_words_cont h1 {
+        font-size: 26px;
+    }
+    .some_words_cont p {
+        font-size: 15px;
+    }
+
+    .about_img {
+        padding-left: 52px;
+    }
+    .about_img img {
+        width: 358px;
+        height: 354px;
+    }
+    .about_text {
+        left: 224px;
+    }
+    .arrow_btns {
+        left: 36%;
+    }
+
+    .premium_text_container{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .premium_text h1 {
+        font-size: 26px;
+    }
+    .premium_text h2 {
+        font-size: 20px;
+    }
+
+
+    .circle_img {
+        top: -126px;
+    }
+    .circle_img img{
+        width: 145px;
+    }
+    .right_circle_img img{
+        width: 145px;
+    }
+    .premium_card_left_circle_img img{
+        width: 190px;
+    }
+    .premium_card_right_circle_img img{
+        width: 190px;
+    }
+
+    .right_orange_circle img{
+        width: 153px;
+    }
+    .right_half_circle_img{
+        display: block;
+    }
+    .right_half_circle_img img{
+        width: 153px;
+    }
+    .support_right {
+        padding-right: 0px;
+    }
+    .support_right_first_cont h1 {
+        font-size: 25px;
+    }
+    .support_right_first_cont p {
+        font-size: 13px;
+    }
+    .collab_text h1 {
+        font-size: 20px;
+    }
+    .collab_text {
+        bottom: 25px;
+    }
+
+    .sedule_a_demo {
+      display: none;
+    }
+
+
+    .contact_and_useful_links {
+        padding-top: 70px;
+    }
+    .contact{
+        margin-bottom: 40px;
+    }
+    .contact_and_useful_links {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+    .copyright {
+        padding: 35px 30px;
+    }
+    
+}
+
+@media(max-width:700px){
+    header{
+        line-height: 50px;
+    }
+    header img{
+        width: 200px;
+    }
+    .hamb_bar_cont i {
+        margin-top: 20px;
+    }
+    .log_signup{
+         display: none;
+    }
+    .ebay_text {
+        margin-top: 115px;
+    }
+    .download_btn input {
+        padding: 9px 16px;
+        font-size: 8px;
+    }
+    .apk_download_text {
+        font-size: 9px;
+    }
+    .about_img {
+        padding-left: 20px;
+    }
+    .about_img img {
+        width: 300px;
+        height: 300px;
+    }
+    .about_text {
+        left: 137px;
+        line-height: 11px;
+        font-size: 8px;
+    }
+
+    .premium_btn :nth-child(1) input {
+        padding: 15px 43px;
+        font-size: 13px;
+    }
+    .premium_btn :nth-child(2) input {
+        padding: 15px 9px;
+        font-size: 13px;
+    }
+    .support_left {
+        top: -74px;
+    }
+    .support_left img {
+        width: 250px;
+    }
+    .set_position {
+        padding-bottom: 27px;
+        padding-top: 27px;
+    }
+    .right_orange_circle img {
+        width: 92px;
+    }
+    .right_half_circle_img img {
+        width: 92px;
+    }
+    .blue_doted_line {
+        top: -55px;
+    }
+}
+@media(max-width:600px){
+    .some_words_cont h1 {
+        font-size: 18px;
+    }
+    .some_words_cont p {
+        font-size: 13px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    
+    .set_position {
+        padding-bottom: 35px;
+        padding-top: 35px;
+    }
+    .support_right {
+        width: 235px;
+    }
+    .support_right_first_cont h4 {
+        font-family: 'Inter';
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .support_right_first_cont h1 {
+        font-size: 23px;
+    }
+    .support_right_first_cont p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+
+    .about_img{
+        display: none;
+    }
+    .about{
+        padding-bottom: 149px;
+    }
+
+    .about_text{
+        position: inherit;
+        line-height: 16px;
+        font-size: 10px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .apk_download_text p{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:500px){
+    .ebay_text h1 {
+        font-size: 30px;
+    }
+    .ebay_text p {
+        font-size: 12px;
+        margin-top: 11px;    
+    }
+    .about_text {
+        line-height: 12px;
+        font-size: 9px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .ufo_img img {
+        height: 130px;
+    }
+    .premium_text p {
+        font-size: 12px;
+    }
+    .premium_card_right_circle_img img {
+        width: 129px;
+    }
+    .premium_card_left_circle_img img {
+        width: 129px;
+    }
+    .card {
+        width: 311.63px;
+    }
+    .card_btn :nth-child(1) input {
+        padding: 15px 6px;
+    }
+    .card_btn :nth-child(2) input {
+        padding: 15px 30px;
+    }
+
+    .set_position {
+        padding-bottom: 19px;
+        padding-top: 19px;
+    }
+    .support_left {
+        top: -59px;
+    }
+    .support_left img {
+        width: 200px;
+    }
+    .support_right_first_cont h4 {
+        font-size: 10px;
+    }
+    .support_right_first_cont h1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .support_right_first_cont p {
+        margin-top: 5px;
+        line-height: 15px;
+    }
+    .apk_download {
+        width: 385px;
+    }
+    .download_btn {
+        margin-right: 5px;
+    }
+    .collab_text {
+        bottom: 15px;
+    }
+}
+@media(max-width:400px){
+    .ebay_main {
+        padding-bottom: 150px;
+    }
+    .some_words_cont {
+        margin-top: 160px;
+    }
+    .copyright_text h1 {
+        font-size: 13px;
+    }
+}
+@media(max-width:450px){
+    header img {
+        width: 170px;
+    }
+
+    
+    .support_right {
+        width: 190px;
+    }
+    .premium_card_left_circle_img {
+        top: -77px;
+        z-index: 1;
+    }
+    .premium_card_right_circle_img {
+        position: absolute;
+        right: 0;
+        top: 233px;
+    }
+    .premium_card_left_circle_card_img_2{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 563px;
+    }
+    .premium_card_left_circle_card_img_2 img{
+        width: 129px;
+    }
+    .premium_card_right_circle_card_img_2{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 887px;
+    }
+    .premium_card_right_circle_card_img_2 img{
+        width: 129px;
+    }
+    .premium_card_left_circle_card_img_3{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 1216px;
+    }
+    .premium_card_left_circle_card_img_3 img{
+        width: 129px;
+    }
+    .premium_card_right_circle_card_img_3{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 1480px;
+    }
+    .premium_card_right_circle_card_img_3 img{
+        width: 129px;
+    }
+
+    .premium_cards_container {
+        padding-bottom: 149px;
+    }
+}

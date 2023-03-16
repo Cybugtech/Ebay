@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1146px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.show {
+    position: absolute;
+    background: linear-gradient(to top left, #FF9D5F, #FF8131);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    z-index: 6;
+}
+.main_background{
+    background: url(../images/benefits/main_background.png);
+    background-size: cover;
+}
+
+ /* navbar */
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.header_nav_btns_cont {
+    display: flex;
+}
+.nav ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #3D474D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+.log_signup input {
+    color: white;
+    font-family: poppins;
+}
+.log_signup :nth-child(1) {
+    background: url(../images/Frame_33835.png);
+    background-size: cover;
+    padding: 11px 25px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+.log_signup :nth-child(2) {
+    background: url(../images/btn.png);
+    background-size: cover;
+    padding: 11px 50px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+.hamb_bar_cont{
+    display: none;
+}
+
+/* testi_heading */
+.testimonals_main_container{
+    background: url(../images/doted_lines.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.testimonals_heading{
+    padding-top: 120px;
+    text-align: center;
+}
+.testimonals_heading h1{
+    font-family: 'Exo 2';
+    font-size: 48px;
+    color: #FA7420;
+} 
+.testimonals_heading p{
+    font-family: 'Roboto';
+    font-size: 22.3667px;
+    color: rgba(0, 75, 129, 0.85);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+
+/* testi card */
+
+.testimonals_cards_container{
+    display: flex;
+    margin-top: 230px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.testimonals_card{
+    background-color: white;
+    width: 460px;
+    border-radius: 16px;
+    padding: 50px 35px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+}
+.testimonals_card p{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 40px;
+    color: #6E798C;
+    margin-top: 20px;
+}
+.testi_info{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.testi_name{
+    margin-left: 30px;
+    font-size: 22px;
+}
+/* .jay{
+   height: 657px;
+} */
+.testimonals_card{
+    margin-bottom: 80px;
+}
+
+
+/* footer */
+.sedule_a_demo {
+    background: url(../images/apk\ download.png);
+    position: relative;
+    background-size: 100% 100%;
+    top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 928px;
+    height: 83px;
+    margin-top: 30px;
+}
+.sedule_demo_text{
+    margin-left: 80px;
+    margin-right: 187px;
+}
+.sedule_demo_text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.sedule_btn{
+    background: url(../images/download.png);
+    background-size: cover;
+    margin-right: 40px;
+}
+.sedule_btn input{
+    background-color: transparent;
+    border: 0;
+    padding: 17px 20px;
+    font-family: 'Quicksand';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 150px;
+}
+.contact_and_useful_links{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.contact p{
+    font-family: 'Quicksand';
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.contact a{
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    color: #0E5486;
+}
+.footer_links h2{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #0E5486;
+    letter-spacing: 1px;
+}
+.footer_links ul{
+    margin-top: 15px;
+}
+.footer_links ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer_links ul li img{
+    margin-right: 10px;
+}
+.footer_links ul li a{
+    text-decoration: none;
+    color: #8A9499;
+    font-family: 'Quicksand';
+    font-size: 15px;
+}
+
+
+.copyright{
+    background: url(../images/Group\ 33792.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 93px;
+}
+.copyright_text h1{
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+.copyright_text h1 span{
+    color: #FA7420;
+}
+.social_btn ul{
+    display: flex;
+}
+.social_btn ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.social_btn ul li:nth-child(3){
+    margin: 0;
+}
+.social_btn ul li i{
+    color: #0E5486;
+}
+
+@media(max-width:1300px){
+    .nav ul li {
+        padding-right: 30px;
+    }
+    .log_signup :nth-child(1) {
+        display: none;
+    }
+}
+@media(max-width:1200px){
+    .container {
+        width: 1060px;
+    }
+    .testimonals_heading h1{
+        font-size: 40px;
+    }
+    .testimonals_heading p{
+        font-size: 21px;
+    }
+    .testimonals_card {
+        width: 430px;
+    }
+}
+@media(max-width:1100px){
+    .container {
+        width: 918px;
+    }
+    .hamb_bar_cont{
+        display: block;
+        z-index: 6;
+    }
+    .hamb_bar_cont i {
+        margin-top: 22px;
+    }
+    .nav {
+        display: none;
+        padding-top: 90px;
+    }
+    .nav ul {
+        text-align: center;
+    }
+    .nav ul li {
+        display: block;
+    }
+    .nav ul li a {
+        color: white;
+        font-size: 20px;
+    }
+    .log_signup{
+        margin-right: 20px;
+    }
+    .log_signup :nth-child(1) {
+     display: inline-block;
+    }
+
+    .testimonals_heading {
+        padding-top: 100px;
+    }
+    .testimonals_heading p {
+        margin-top: 5px;
+    }
+
+
+    .testimonals_card {
+        width: 370px;
+    }
+    .testimonals_card p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .sedule_a_demo {
+        width: 732px;
+    }
+    .sedule_demo_text {
+        margin-right: 140px;
+    }
+    .sedule_btn {
+        margin-right: 20px;
+    }
+}
+@media(max-width:1000px){
+    .container {
+        width: 830px;
+    }
+    .testimonals_heading {
+        padding-top: 60px;
+    }
+    .testimonals_heading p {
+        font-size: 20px;
+    }
+    .testimonals_card {
+        width: 320px;
+    }
+
+}
+@media(max-width:900px){
+    .container {
+        width: 700px;
+    }
+    header {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    header img {
+        width: 200px;
+    }
+    .testimonals_main_container {
+        margin-top: 50px;
+    }
+    .testimonals_heading {
+        padding-top: 45px;
+    }
+    .testimonals_cards_container {
+        margin-top: 190px;
+    }
+
+    .testimonals_card {
+        width: 250px;
+    }
+    .testimonals_card p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+
+    .contact_and_useful_links {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .contact{
+        margin-bottom: 40px;
+    }
+    .contact img{
+        width: 220px;
+    } 
+    .contact p {
+        font-size: 11px;
+        margin-top: 4px;
+    }
+    .copyright {
+        padding: 35px 30px;
+    }
+  
+}    
+@media(max-width:800px){
+    .container {
+        width: 600px;
+    }
+    .testimonals_heading h1{
+        font-size: 35px;
+    }
+    .testimonals_heading p{
+        font-size: 15px;
+    }
+
+    .testimonals_cards_container {
+        justify-content: center;
+    }
+    .testimonals_card {
+        width: 380px;
+    }
+
+    .sedule_a_demo {
+        width: 440px;
+        height: 60px;
+        top: 30px;
+    }
+    .sedule_demo_text {
+        margin-right: 0px;
+        margin-left: 35px;
+    }
+    .sedule_demo_text p {
+        font-size: 13px;
+    }
+    .sedule_btn {
+        margin-right: 5px;
+    }
+    .sedule_btn input {
+        padding: 12px 11px;
+        font-size: 9px;
+    }
+}
+@media(max-width:700px){
+    .container {
+        width: 450px;
+    }
+    .log_signup{
+        display: none;
+    }
+    .testimonals_heading {
+        padding-top: 25px;
+    }
+}
+@media(max-width:600px){
+    .testimonals_heading {
+        padding-top: 0px;
+    }
+    .testimonals_cards_container {
+        margin-top: 140px;
+    }
+    .testimonals_card {
+        width: 335px;
+    }
+    .testimonals_card span img{
+        width: 40px;
+    }
+}
+@media(max-width:500px){
+    .container {
+        width: 340px;
+    }
+    header {
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 60px;
+    }
+    header img {
+        width: 170px;
+    }
+    .hamb_bar_cont i {
+        margin-top: 15px;
+    }
+    .testimonals_heading h1 {
+        font-size: 27px;
+    }
+    .testimonals_heading p {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .testimonals_card {
+        width: 250px;
+    }
+    .testimonals_card p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+
+
+
+    .sedule_a_demo {
+        width: 314px;
+        height: 50px;
+    }
+    .sedule_demo_text {
+        margin-left: 24px;
+    }
+    .sedule_demo_text p {
+        font-size: 10px;
+    }
+    .sedule_btn input {
+        padding: 8px 3px;
+        font-size: 7px;
+    }
+
+    .copyright {
+        align-items: center;
+    }
+    .copyright_text h1 {
+        font-size: 11px;
+    }
+    .social_btn ul li i {
+        font-size: 25px;
+    }
+}
+@media(max-width:400px){
+    .container {
+        width: 320px;
+    }
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+    }
+    .testimonals_card {
+        width: 210px;
+    }
+    .sal_militello{
+        font-size: 20px;
+    }
+}

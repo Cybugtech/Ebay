@@ -1,0 +1,678 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(2, 61, 105, 0.25) 0%, rgba(7, 127, 214, 0.175) 100%);
+}
+
+.background {
+    background: url(../images/Rectangle_1.png);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.header_nav_btns_cont {
+    display: flex;
+}
+
+/* nav */
+.nav ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #3D474D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+.show {
+    position: absolute;
+    background: linear-gradient(to top left, #FF9D5F, #FF8131);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    z-index: 6;
+}
+
+/* header btn */
+.log_signup input {
+    color: white;
+    font-family: poppins;
+}
+
+.log_signup :nth-child(1) {
+    /* background: #FF6302;; */
+    /* background: url../images/Frame_33835.png); */
+    background: url(../images/Frame_33835.png);
+    background-size: cover;
+    padding: 11px 25px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+
+.log_signup :nth-child(2) {
+    /* background: #FF6302;; */
+    background: url(../images/btn.png);
+    background-size: cover;
+    padding: 11px 50px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+}
+
+.hamb_bar_cont {
+    display: none;
+}
+
+/* ebay_main */
+.container_ebay_main {
+    position: relative;
+    /* width: 100vw; */
+}
+
+.double_dot_img {
+    width: 100%;
+}
+
+.ebay_main {
+    background: url(../images/doted_lines.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.ebay_text {
+    margin-left: 85px;
+    margin-top: 184px;
+    white-space: nowrap;
+}
+
+.ebay_text_img {
+    margin-bottom: 20px;
+}
+
+.ebay_text h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #FA7420;
+}
+
+.ebay_text p {
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #585872;
+    font-weight: 600;
+}
+
+.start_trial_btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.start_trial_btn input {
+    background: url(../images/trial_btn.png);
+    background-size: cover;
+    padding: 7px 33px;
+    border: 0;
+    color: white;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.trial_img {
+    margin-left: 10px;
+}
+
+.main_img_cont img {
+    margin-right: 60px;
+    margin-top: 50px;
+}
+.circle_img{
+    position: absolute;
+    top: -150px;
+}
+.container_download_apk{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    position: relative;
+}
+.apk_download_cont_and_some_words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 90px; */
+}
+.some_words_cont{
+    margin-top: 90px;
+    text-align: center;
+}
+.some_words_cont h1{
+    font-family: 'Exo 2', sans-serif;
+    /* font-weight: 700; */
+    color: #FA7420;
+    font-size: 37px;
+}
+.some_words_cont p{
+    margin-top: 18px;
+    font-family: 'Exo 2', sans-serif;
+    color: gba(0, 0, 0, 0.8);;
+    font-size: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+
+/* second_sectoin */
+.apk_download {
+    background: url(../images/apk\ download.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    /* width: 54%; */
+    height: 83px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+}
+
+.apk_download_text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    padding-left: 40px;
+    font-size: 14.97px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.apk_download_text p{
+    margin-right: 68px;
+}
+.download_btn{
+    background: url(../images/download.png);
+    background-size: cover;
+    margin-right: 15px;
+}
+.download_btn input{
+    background-color: transparent;
+    border: 0;
+    padding: 12px 20px;
+    font-family: Poppins;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+/* third_section */
+
+.about_container{
+    background: url(../images/trh.png);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    /* height: 700px; */
+    position: relative;
+    margin-top: 90px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.right_circle_img{
+    position: absolute;
+    right: 0;
+    top: -195px;
+}
+.about_img{
+    padding-left: 130px;
+    z-index: 2;
+}
+.about_img img{
+    width: 513px;
+    height: 513px;
+}
+.about_text{
+    background-color: white;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 460px;
+    padding-left: 170px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;;
+}
+.about_text p{
+    margin-left: 45px;
+}
+.about_text i{
+    color: #FA7420;
+}
+.arrow_btns{
+    position: absolute;
+    left: 40%;
+    margin-top: 20px;
+}
+.arrow_img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.ufo_img{
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+.ufo_img img{
+    height: 291px;
+}
+
+
+/* premium_plan */
+.premium_section_container{
+    margin-top: 90px;
+}
+.premium_text{
+    text-align: center;
+    font-family: Quicksand;
+}
+.premium_text h1{
+    color: rgba(0, 75, 129, 0.85);
+    font-size: 48px;
+}
+.premium_text h2{
+    color: #FF6200;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 18px;
+}
+.premium_text p{
+    color: rgba(53, 53, 53, 0.9);
+    font-size: 21px;
+    margin-top: 18px;
+}
+.premium_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.premium_btn input{
+    font-size: 22px;
+    border: 0;
+    font-family: 'Poppins';
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.premium_btn :nth-child(1) input{
+    background: url(../images/left.png);
+    background-size: 100% 100%;
+    padding: 19px 90px;
+    color: white;
+}
+.premium_btn :nth-child(2) input{
+    background: url(../images/right.png);
+    background-size: 100% 100%;
+    padding: 19px 40px;
+    color:rgba(66, 66, 66, 1);
+}
+
+
+
+.premium_cards_container{
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 200px;
+}
+.premium_cards{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.premium_card_left_circle_img{
+    position: absolute;
+    left: 0;
+    top: -220px;
+}
+.premium_card_right_circle_img{
+    position: absolute;
+    right: 0;
+    top: -220px;
+}
+.card{
+    width: 250.63px;
+    z-index: 5;
+}
+.top_price{
+    background: url(../images/Rectangle\ 4.png), rgba(0, 75, 129, 0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 56.015px 56.015px 0px 0px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid rgb(52, 142, 206);
+}
+.top_price h1{
+    font-family: 'Open Sans';
+}
+.top_price h1 span{
+    font-size: 11.3929px;
+    font-weight: lighter;
+}
+.btn_some_text{
+    background: rgb(125 195 240 / 25%);
+    backdrop-filter: blur(12px);
+    border-radius: 0px 0px 56.015px 56.015px;
+    border: 3px solid rgb(52, 142, 206);
+    border-top: 0;
+}
+.card_text{
+    font-family: 'Quicksand';
+    text-align: center;
+    padding-top: 20px;
+  
+}
+.card_text h1{
+    font-size: 19.9375px;
+    letter-spacing: 1px;
+}
+.card_text p{
+    font-size: 12.3423px;
+    margin-top: 20px;
+}
+.card_btn{
+    margin-top: 60px;
+    text-align: center;
+   
+}
+.card_btn input{
+    border-radius: 9.49406px;
+    border: 0;
+    margin-bottom: 10px;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    cursor: pointer;
+}
+.card_btn :nth-child(1) input{
+    padding: 15px 20px;
+}
+.card_btn :nth-child(2) input{
+    background: rgba(0, 75, 129, 0.85);
+    padding:15px 45px;
+    color: white;
+}
+.card_dot_img{
+    margin-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.right_orange_circle{
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+}
+.premium_doted_img{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+.support_container{
+    flex-direction: right;
+    position: relative;
+    background: url(../images/Frame\ 33822.png);
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    /* height: 700px; */
+}
+.support_left{
+    position: absolute;
+    /* top: -192px; */
+    top: -188px;
+}
+.support_left img{
+    height: 100%;
+    /* height: 892px; */
+    width: 636px;
+}
+.set_position{
+    display: flex;
+    justify-content: end;
+}
+.support_right{
+    /* padding-right: 200px; */
+    padding-right: 125px;
+    /* padding-bottom: 27px; */
+    padding-bottom: 30px;
+    width: 535px;
+}
+.support_right_first_cont{
+    color: white;
+}
+.support_right_first_cont h4{
+    font-family: 'Inter';
+    margin-top: 40px;
+}
+.support_right_first_cont h1{
+    font-family: 'Quicksand';
+    margin-top: 10px;
+}
+.support_right_first_cont p{
+    font-family: 'Inter';
+    color: rgba(61, 71, 77, 0.9);
+    margin-top: 10px;
+    line-height: 32px;
+}
+.right_half_circle_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box{
+    /* background-color: rgba(128, 128, 128, 0.64); */
+    background: url(../images/box.png);
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 30px;
+    padding-top: 46px;
+    padding-bottom: 30px
+}
+.box h1{
+    color: #013E69;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: 18px;
+    font-family: 'Quicksand';
+    color: rgba(61, 71, 77, 0.9);
+    margin-bottom: 15px;
+}
+.box input{
+    background: #004677;
+    border-radius: 9999px;
+    border: 0;
+    padding: 15px 50px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.collab_with_team_container{
+    position: relative;
+}
+.collab_text{
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    text-align: center;
+}
+.collab_text h1{
+    color: rgba(0, 75, 129, 0.85);
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Exo 2';
+}
+.blue_doted_line{
+    position: absolute;
+    top: -140px;
+}
+
+
+
+
+
+.contact_and_useful_links{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.sedule_a_demo{
+    background: url(../images/apk\ download.png);
+    background-size: 100% 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: absolute;
+    top: -43px;
+    /* width: 54%; */
+    height: 83px;
+}
+.sedule_demo_text{
+    margin-left: 80px;
+    margin-right: 187px;
+}
+.sedule_demo_text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 14.97px;
+    color: rgba(0, 75, 129, 0.85);
+}
+.sedule_btn{
+    background: url(../images/download.png);
+    background-size: cover;
+    margin-right: 14px;
+}
+.sedule_btn input{
+    background-color: transparent;
+    border: 0;
+    padding: 17px 20px;
+    font-family: 'Quicksand';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.contact p{
+    font-family: 'Quicksand';
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.contact a{
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    color: #0E5486;
+}
+.list h2{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #0E5486;
+    letter-spacing: 1px;
+}
+.list ul{
+    margin-top: 15px;
+}
+.list ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.list ul li img{
+    margin-right: 10px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #8A9499;
+    font-family: 'Quicksand';
+    font-size: 15px;
+}
+
+
+.copyright{
+    background: url(../images/Group\ 33792.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 93px;
+}
+.copyright_text h1{
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+.copyright_text h1 span{
+    color: #FA7420;
+}
+.social_btn ul{
+    display: flex;
+}
+.social_btn ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.social_btn ul li:nth-child(3){
+    margin: 0;
+}
+.social_btn ul li i{
+    color: #0E5486;
+}
+
+
+
+.premium_card_left_circle_card_img_2{
+    display: none;
+}
+.premium_card_left_circle_card_img_3{
+    display: none;
+}
+.premium_card_right_circle_card_img_2{
+    display: none;
+}
+.premium_card_right_circle_card_img_3{
+    display: none;
+}
